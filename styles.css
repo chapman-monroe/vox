@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+	display: block;
+	background-color: #eae7e8;
+	margin: 0;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.logo{
+	width: 95%;
+	margin: 0 auto;
+	border-top: solid 5px;
+	border-color: #fff400;
+}
+
+.logo-image{
+	width: 130px;
+	margin: 0 auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.images{
+	display: inline-block;
+	width: 100%;
+	position: relative;
+}
+
+.skiing{
+	position: relative;
+	width: 25%;
+	height: 450px;
+	margin: 5px;
+	display: inline-block;
+	background: url(skiing.png) no-repeat center center;
+	-webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+	background-size: cover;
+}
+
+.breakfast{
+	position: relative;
+	width: 25%;
+	height: 450px;
+	margin: 5px;
+	display: inline-block;
+	background: url(breakfast.png) no-repeat center center;
+	-webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+	background-size: cover;
+}
+
+.football{
+	position: relative;
+	width: 40%;
+	height: 450px;
+	margin: 5px;
+	display: inline-block;
+	background: url(football.png) no-repeat center center;
+	-webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+	background-size: cover;
+}
+
+.pic-title{
+	position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    bottom: 10px;
+    width: 80%;
+    left: 10px;
+    text-align: left;
+}
+
+a{
+	color: white;
+	background-color: black;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: left;
+}
+
+
+@media screen and (max-width: 505px){
+	.skiing{
+		display: block;
+		width: 80%;
+		margin: 0 auto;
+	}
+	.breakfast{
+		display: block;
+		width: 80%;
+		margin: 0 auto;
+	}
+	.football{
+		display: block;
+		width: 80%;
+		margin: 0 auto;
+	}
+	.images{
+		display: block;
+	}
+}
+
+
+
